@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="TestHRM">
+	  <groups>
+		  <run>
+			  <include name="regression"/>
+			  <exclude name="sanity"/>
+		  </run>
+	  </groups>
+    <classes>
+      <class name="Day2wait.NewTest"/>
+      
+    </classes>
+  </test> <!-- TestHRM -->
+</suite> <!-- Suite -->
